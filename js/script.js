@@ -1,0 +1,72 @@
+/*   ======================================================================   */
+/*   |                                                                    |   */
+/*   |                                                                    |   */
+/*   |                              DEVELOPER                             |   */
+/*   |                            AYESHA ASHFAQ                           |   */
+/*   |                                                                    |   */
+/*   |                                                                    |   */
+/*   ======================================================================   */
+
+
+// ===========================================================================//
+// ======================       Navigation Bar     ===========================//
+// ===========================================================================//
+
+const hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function () {
+  this.classList.toggle("close");
+});
+
+// ===========================================================================//
+// ===================       SLIDER (HOME PAGE)     ==========================//
+// ===========================================================================//
+
+
+const items = document.querySelectorAll('.slider-item');
+const titles = document.querySelectorAll('.slider-title');
+const itemCount = items.length;
+const nextItem = document.querySelector('.next');
+const previousItem = document.querySelector('.previous');
+let count = 0;
+
+function showNextItem() {
+  items[count].classList.remove('active');
+  titles[count].classList.remove('active');
+
+  if(count < itemCount - 1) {
+    count++;
+  } else {
+    count = 0;
+  }
+
+  items[count].classList.add('active');
+  titles[count].classList.add('active');
+}
+
+function showPreviousItem() {
+  items[count].classList.remove('active');
+  titles[count].classList.remove('active');
+
+  if(count > 0) {
+    count--;
+  } else {
+    count = itemCount - 1;
+  }
+
+  items[count].classList.add('active');
+  titles[count].classList.add('active');
+}
+
+function keyPress(e) {
+  e = e || window.event;
+  
+  if (e.keyCode == '37') {
+    showPreviousItem();
+  } else if (e.keyCode == '39') {
+    showNextItem();
+  }
+}
+
+nextItem.addEventListener('click', showNextItem);
+previousItem.addEventListener('click', showPreviousItem);
+document.addEventListener('keydown', keyPress);

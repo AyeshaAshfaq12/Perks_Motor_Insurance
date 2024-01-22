@@ -1,0 +1,1298 @@
+/*   ======================================================================   */
+/*   |                                                                    |   */
+/*   |                                                                    |   */
+/*   |                              DEVELOPER                             |   */
+/*   |                            AYESHA ASHFAQ                           |   */
+/*   |                                                                    |   */
+/*   |                                                                    |   */
+/*   ======================================================================   */
+
+
+
+/* ===================== Responsiveness ====================== */
+
+
+/* ================= (Max-width: 850px) =================== */
+
+@media screen and (max-width: 850px) {
+
+
+    /* ====================================== */
+
+    .link-btn {
+        height: 2.5rem;
+        width: 9rem;
+    }
+
+    .link-btn a {
+        font-size: var(--font-size);
+        padding: 1.06rem 1rem;
+    }
+
+    .link-btn i {
+        margin-left: -0.5rem;
+    }
+
+
+    /* ================= HOME PAGE ======================= */
+
+    /*#region */
+
+
+    header {
+        height: 40rem;
+    }
+
+    .logo {
+        padding-left: 0rem;
+        padding-top: 0;
+        width: 20%;
+    }
+
+    .logo a img {
+        padding-left: 1rem;
+        width: 78%;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 5rem;
+    }
+
+    .menu {
+        width: 77%;
+    }
+
+    .menu li a {
+        padding: 1rem 0.75rem;
+    }
+
+    .menu .link-btn {
+        margin-left: 3rem;
+    }
+
+
+    header .hero-section {
+        margin-left: 3.6rem;
+        margin-top: 4rem;
+    }
+
+    header .hero-section img {
+        margin-left: 0;
+        width: 47%;
+    }
+
+    /* ======================================= */
+
+
+    .perks-power {
+        padding: 4rem 3rem;
+    }
+
+    .perks-power .text {
+        width: 80%;
+    }
+
+    /* ======================================= */
+
+    .services {
+        padding: 4rem 2.5rem;
+    }
+
+    .services .card {
+        padding: 1.2rem;
+    }
+
+    /* ======================================= */
+
+    .quote {
+        padding: 4rem 0;
+    }
+
+    .quote p {
+        width: 80%;
+    }
+
+    /* ======================================= */
+
+    .partners div {
+        width: 94%;
+    }
+
+    /* ======================================= */
+
+    .contact {
+        padding: 5rem 0;
+    }
+
+    /* ======================================= */
+
+    .contact-info {
+        padding: 4rem 2.5rem;
+    }
+
+    .contact-info .card {
+        width: 31%;
+        padding: 1.5rem 2rem;
+    }
+
+    /* ======================================= */
+
+    footer .description {
+        margin: 1rem 0 0.8rem;
+    }
+
+    footer ul {
+        margin: 1rem 0;
+        width: 80%;
+    }
+
+    /*#endregion */
+
+
+    /* ================= BENEFITS PAGE ======================= */
+
+    /*#region */
+
+    /* ================================ */
+
+    .benefits-package .packages {
+        margin: 1rem 0;
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+
+    .benefits-package .berjaya {
+        margin: 1rem 0;
+    }
+
+    .benefits-package .berjaya .conditions-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits-package .berjaya .conditions-info .conditions {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .benefits-package .berjaya .conditions-info .title {
+        margin: 0.6rem 0;
+    }
+
+    .benefits-package .berjaya .conditions-info .info {
+        width: 100%;
+    }
+
+    .benefits-package .berjaya .conditions-info .info ul {
+        width: 75%;
+    }
+
+    .benefits-package .berjaya .underwritten {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .benefits-package .berjaya .underwritten img {
+        width: 30%;
+    }
+
+    .benefits-package .copilot {
+        margin: 0rem 1rem;
+        padding: 3rem;
+    }
+
+    .benefits-package .btns {
+        width: 58%;
+    }
+
+    .benefits-package .btns .link-btn {
+        width: 9rem;
+    }
+
+    /*#endregion */
+
+
+    /* ================= CTA PAGE ======================= */
+
+    /*#region */
+
+
+    .copilot-flyer {
+        margin: 3rem 2rem;
+    }
+
+    .copilot-flyer .copilot .heading {
+        width: 70%;
+    }
+
+    /*#endregion */
+
+
+}
+
+/* ================= (Max-width: 1230px) =================== */
+
+@media screen and (max-width: 1230px) {
+
+    .logo {
+        width: 20%;
+    }
+
+    .logo a img {
+        padding-left: 1rem;
+        width: 78%;
+    }
+
+    .menu {
+        width: 78%;
+    }
+
+    .menu li a {
+        padding: 1rem 0.85rem;
+    }
+
+    .menu .link-btn {
+        margin-left: 3rem;
+    }
+
+    /* ======================================== */
+
+
+    .our-benefits {
+        padding: 4rem 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-benefits .ad {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .our-benefits .ad img {
+        width: 100%;
+    }
+
+    .our-benefits .ad div {
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    .our-benefits .text {
+        width: 100%;
+    }
+
+    .our-benefits .text .heading {
+        width: 90%;
+    }
+
+    /* ======================================= */
+
+
+    .perks-power {
+        padding: 4rem 5rem;
+    }
+
+    /* ======================================= */
+
+    .quote {
+        padding: 3rem 1rem;
+    }
+
+    .quote p {
+        width: 80%;
+    }
+
+    .quote div {
+        width: 30%;
+    }
+
+    .quote div img {
+        height: 12%;
+        width: 12%;
+    }
+
+    /* ======================================= */
+
+    footer .description {
+        margin: 1rem 0 0.8rem;
+    }
+
+    footer ul {
+        margin: 1rem 0;
+        width: 80%;
+    }
+
+    /* =============================== */
+
+    .benefits-package {
+        padding: 4rem 1rem;
+    }
+
+    .benefits-package .packages {
+        width: 100%;
+    }
+
+}
+
+/* ================= (Max-width: 945px) =================== */
+
+@media screen and (max-width: 945px) {
+
+    .logo {
+        width: 12%;
+        margin-right: 3rem;
+    }
+
+    .logo a img {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .menu {
+        width: 88%;
+    }
+
+    .menu li a {
+        padding: 1rem 0.75rem;
+    }
+
+    .menu .link-btn {
+        margin-left: 2rem;
+    }
+
+    /* ======================================= */
+
+    .perks-power {
+        padding: 3rem 4rem;
+    }
+
+    /* ======================================= */
+
+
+    .services .service-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services .card {
+        margin: 0.5rem 0;
+        width: 95%;
+        padding: 1.2rem;
+    }
+
+    /* ======================================= */
+
+    .quote p {
+        width: 85%;
+    }
+
+    .quote div {
+        width: 40%;
+    }
+
+    .quote div img {
+        height: 10%;
+        width: 10%;
+    }
+
+    /* ======================================= */
+
+
+    .benefits-package .packages .card {
+        padding: 1rem 0.4rem;
+    }
+
+    /* ======================================= */
+
+
+}
+
+/* ================= (Max-width: 735px) =================== */
+
+@media screen and (max-width: 735px) {
+
+
+    /* ====================================== */
+
+    .logo {
+        width: 22%;
+    }
+
+    .logo a img {
+        padding-left: 1rem;
+        width: 78%;
+    }
+
+    header .menu {
+        flex-flow: column;
+        align-items: flex-start;
+        position: absolute;
+        background: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top center;
+        transition: 200ms transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms,
+            100ms opacity ease-in-out;
+
+    }
+
+    header .menu li {
+        width: 100%;
+    }
+
+    header .menu>li>a {
+        font-size: 1rem;
+        color: #1c2022;
+    }
+
+    header .hamburger {
+        right: 1rem;
+        width: 2em;
+        height: 0.25em;
+        display: block;
+        background: #fff;
+        position: relative;
+        cursor: pointer;
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .hamburger::after,
+    header .hamburger::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        background: inherit;
+        width: inherit;
+        height: inherit;
+
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .hamburger::after {
+        top: 0.65em;
+    }
+
+    header .hamburger::before {
+        bottom: 0.65em;
+    }
+
+    header .close::after,
+    header .close::before {
+        top: 0;
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .close {
+        transform: rotate(45deg);
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .close::after {
+        transform: rotate(-90deg);
+    }
+
+    header input[type="checkbox"]:checked+.menu {
+        position: absolute;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    header .menu button {
+        width: 95%;
+        margin-top: 0.7rem;
+    }
+
+    /* ===================================== */
+
+    .perks-power .text {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .perks-power .text .heading {
+        width: 95%;
+    }
+
+    .perks-power .coverage {
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perks-power .coverage img {
+        width: 90%;
+    }
+
+    .perks-power .coverage div {
+        width: 100%;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .perks-power .coverage div .heading {
+        line-height: 1.2;
+        width: 100%;
+        margin: 2rem 0 0.5rem;
+    }
+
+    .perks-power .coverage div .description {
+        font-size: var(--font-size);
+    }
+
+    .perks-power .renewals-processes {
+        flex-direction: column;
+    }
+
+    .perks-power .renewals-processes .renewals,
+    .perks-power .renewals-processes .processes {
+        padding: 2rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+
+    .perks-power .renewals-processes .renewals .heading {
+        width: 90%;
+        line-height: 1.2;
+        margin: 3rem 0 0.5rem;
+    }
+
+    .perks-power .renewals-processes .renewals img {
+        width: 88%;
+    }
+
+    /* ===================================== */
+
+    .quote p {
+        width: 90%;
+    }
+
+    .quote div {
+        width: 46%;
+    }
+
+    /* ===================================== */
+
+    .partners {
+        padding: 2rem 4rem;
+    }
+
+    .partners div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0.5rem 0.4rem;
+        margin-left: 5rem;
+    }
+
+    .partners div img {
+        width: 40%;
+    }
+
+    .partners div img:nth-child(1),
+    .partners div img:nth-child(2),
+    .partners div img:nth-child(5) {
+        width: 80%;
+    }
+
+    /* ===================================== */
+
+    .contact form {
+        width: 70%;
+    }
+
+    .contact form .field-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .privacy {
+        align-items: center;
+    }
+
+    .contact .privacy label {
+        width: 76%;
+        font-size: 0.67rem;
+    }
+
+    .contact .link-btn {
+        width: 9rem;
+    }
+
+
+    .contact input,
+    select {
+        width: 100%;
+    }
+
+    .contact select {
+        width: 100%;
+    }
+
+    /* ===================================== */
+
+    footer ul {
+        width: 100%;
+    }
+
+    /* ===================================== */
+    /* ===================================== */
+
+}
+
+/* ================= (Max-width: 695px) =================== */
+
+@media screen and (max-width: 695px) {
+
+
+    /* ======================================= */
+
+    header {
+        height: 55rem;
+    }
+
+    header .hero-section {
+        margin-left: 2rem;
+        flex-direction: column;
+    }
+
+    header .hero-section .text {
+        margin-top: 0rem;
+        width: 90%;
+    }
+
+    header .hero-section img {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        width: 80%;
+    }
+
+    /* =========================================== */
+
+    .our-benefits {
+        padding: 3rem 2rem;
+    }
+
+    .our-benefits .text .description {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .our-benefits .text .description p {
+        width: 98%;
+        margin-bottom: 1rem;
+    }
+
+    /* =========================================== */
+
+    .perks-power {
+        padding: 3rem;
+    }
+
+    /* =========================================== */
+
+    .services .heading {
+        width: 75%;
+        margin-bottom: 0.6rem;
+        line-height: 1.2 !important;
+    }
+
+    .services .service-cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* =========================================== */
+
+    .quote p {
+        width: 90%;
+    }
+
+    .quote div {
+        width: 55%;
+    }
+
+    /* =========================================== */
+
+    .contact form {
+        width: 80%;
+    }
+
+    /* =========================================== */
+
+    .contact-info {
+        padding: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info .card {
+        width: 90%;
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* ======================================= */
+
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    footer .description {
+        width: 80%;
+        text-align: center;
+        margin: 1rem 0 0.5rem;
+    }
+
+    footer ul {
+        margin: 0.6rem 2rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer ul .first {
+        width: 75%;
+        margin-bottom: 0.6rem;
+    }
+
+    footer ul .second {
+        width: 65%;
+    }
+
+
+    footer li a {
+        text-align: center;
+        font-size: var(--font-size);
+    }
+
+    /* ======================================= */
+
+    .benefits-package .btns {
+        width: 88%;
+    }
+
+    /* ======================================= */
+    /* ======================================= */
+
+
+
+
+
+
+}
+
+/* ================= (Max-width: 420px) =================== */
+
+@media screen and (max-width: 420px) {
+
+    /* ====================================== */
+
+    .link-btn {
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .link-btn a {
+        font-size: var(--font-size);
+        padding: 1.06rem 1rem;
+    }
+
+    .link-btn i {
+        margin-left: -0.5rem;
+    }
+
+    /* ================= HOME PAGE ======================= */
+
+    /*#region */
+
+    /* ======================================= */
+
+    header {
+        height: 45rem;
+    }
+
+    /* ====================================== */
+
+    header .menu {
+        flex-flow: column;
+        align-items: flex-start;
+        position: absolute;
+        background: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top center;
+        transition: 200ms transform cubic-bezier(0.36, 0.4, 0.42, 1.48) 100ms,
+            100ms opacity ease-in-out;
+
+    }
+
+    header .menu li {
+        width: 100%;
+    }
+
+    header .menu>li>a {
+        font-size: 1rem;
+        color: #1c2022;
+    }
+
+    header .hamburger {
+        right: 1rem;
+        width: 2em;
+        height: 0.25em;
+        display: block;
+        background: #fff;
+        position: relative;
+        cursor: pointer;
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .hamburger::after,
+    header .hamburger::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        background: inherit;
+        width: inherit;
+        height: inherit;
+
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .hamburger::after {
+        top: 0.65em;
+    }
+
+    header .hamburger::before {
+        bottom: 0.65em;
+    }
+
+    header .close::after,
+    header .close::before {
+        top: 0;
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .close {
+        transform: rotate(45deg);
+        transition: 0.2s transform ease-in-out;
+    }
+
+    header .close::after {
+        transform: rotate(-90deg);
+    }
+
+    header input[type="checkbox"]:checked+.menu {
+        position: absolute;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    header .menu button {
+        width: 95%;
+        margin-top: 0.7rem;
+    }
+
+    /* =================================== */
+
+    .menu .link-btn {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .logo a img {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    header .hero-section {
+        margin-left: 2rem;
+        flex-direction: column;
+    }
+
+    header .hero-section .text {
+        margin-top: 0rem;
+        width: 90%;
+    }
+
+    header .hero-section img {
+        margin-left: 3rem;
+        width: 90%;
+        width: 85%;
+    }
+
+    /* ======================================= */
+
+    .our-benefits {
+        padding: 3rem 1rem;
+    }
+
+    .our-benefits .text .description {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .our-benefits .text .description p {
+        width: 98%;
+        margin-bottom: 0.5rem;
+    }
+
+    .our-benefits .text .users {
+        padding: 0.5rem 0;
+    }
+
+    .our-benefits .text .users div {
+        line-height: 1.3;
+        padding-left: 2rem;
+    }
+
+    .our-benefits .text .users div .first {
+        padding: 0.1rem 0;
+        font-size: var(--small-font-size);
+    }
+
+    .our-benefits .text .users div .second {
+        padding: 0.1rem 0;
+        padding-right: var(--font-size);
+    }
+
+    .our-benefits .text .users div:first-child {
+        padding-right: 2rem;
+    }
+
+    .our-benefits .ad {
+        margin-top: 1rem;
+    }
+
+    /* ======================================= */
+
+    .perks-power {
+        padding: 3rem 1rem;
+    }
+
+    .perks-power .text {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .perks-power .text .heading {
+        width: 90%;
+    }
+
+    .perks-power .coverage {
+        padding: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perks-power .coverage img {
+        width: 90%;
+    }
+
+    .perks-power .coverage div {
+        width: 100%;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .perks-power .coverage div .heading {
+        line-height: 1.2;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .perks-power .coverage div .description {
+        font-size: var(--font-size);
+    }
+
+    .perks-power .renewals-processes {
+        flex-direction: column;
+    }
+
+    .perks-power .renewals-processes .renewals,
+    .perks-power .renewals-processes .processes {
+        padding: 1.5rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
+
+    .perks-power .renewals-processes .renewals .heading {
+        width: 90%;
+        line-height: 1.2;
+        margin: 0.5rem 0;
+    }
+
+    .perks-power .renewals-processes .renewals img {
+        width: 86%;
+    }
+
+    /* ======================================= */
+
+
+    .services {
+        padding: 3rem 1rem;
+    }
+
+    .services .heading {
+        width: 82%;
+        margin-bottom: 0.6rem;
+        line-height: 1.2 !important;
+    }
+
+    .services .description {
+        margin-bottom: 3rem;
+    }
+
+    .services .service-cards {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services .card .description {
+        margin-bottom: 1rem;
+    }
+
+    /* ======================================= */
+
+    .quote img {
+        width: 5%;
+    }
+
+    .quote p {
+        width: 100%;
+    }
+
+    .quote div {
+        width: 82%;
+    }
+
+    .quote div img {
+        height: 7%;
+        width: 7%;
+    }
+
+    /* ======================================= */
+
+    .partners {
+        padding: 2rem 1rem;
+    }
+
+    .partners .heading {
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    .partners div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0.5rem 0.4rem;
+        margin-left: 1rem;
+    }
+
+    .partners div img {
+        width: 50%;
+    }
+
+    .partners div img:nth-child(1),
+    .partners div img:nth-child(2),
+    .partners div img:nth-child(5) {
+        width: 100%;
+    }
+
+    /* ======================================= */
+
+    .contact form {
+        width: 90%;
+    }
+
+    /* ======================================= */
+
+    .contact-info {
+        padding: 3rem 1.5rem;
+    }
+
+    .contact-info .card {
+        width: 95%;
+        padding: 1.5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* ======================================= */
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    footer .description {
+        width: 80%;
+        text-align: center;
+        margin: 1rem 0 0.5rem;
+    }
+
+    footer ul {
+        margin: 0.6rem 2rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer ul .first {
+        width: 90%;
+        margin-bottom: 0.6rem;
+    }
+
+    footer ul .second {
+        width: 76%;
+    }
+
+
+    footer li a {
+        text-align: center;
+        font-size: var(--font-size);
+    }
+
+    /* ======================================= */
+
+
+    /*#endregion */
+
+    /* ================= BENEFITS PAGE ======================= */
+
+
+    .benefits-package {
+        padding: 4rem 0.5rem;
+    }
+
+    .benefits-package .packages {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .benefits-package .packages .card {
+        padding: 1rem 0.5rem;
+        border-radius: 0.8rem;
+        margin: 0.6rem 0.5rem;
+    }
+
+    .benefits-package .packages .card .text {
+        width: 68%;
+        margin-left: 1.1rem;
+    }
+
+    .benefits-package .packages .card .check div {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .benefits-package .packages .card .check {
+        width: 5%;
+    }
+
+    .benefits-package .packages .card .price {
+        width: 22%;
+    }
+
+    .benefits-package .packages .card .price span {
+        font-size: var(--font-size);
+    }
+
+    .benefits-package .berjaya .conditions-info .conditions {
+        width: 88%;
+        margin-bottom: 2rem;
+    }
+
+    .benefits-package .berjaya .conditions-info .info ul {
+        width: 92%;
+    }
+
+    .benefits-package .berjaya .underwritten img {
+        width: 65%;
+    }
+
+    .benefits-package .berjaya .underwritten p {
+        margin-bottom: 0.6rem;
+        text-align: center;
+        font-size: var(--font-size);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefits-package .berjaya .underwritten p span {
+        font-weight: 800;
+
+    }
+
+    .benefits-package .copilot {
+        margin: 0rem 1rem;
+        padding: 3rem 0.7rem;
+    }
+
+    .benefits-package .copilot .heading {
+        font-size: 1rem;
+        width: 88%;
+        margin-bottom: 1rem;
+    }
+
+    .benefits-package .btns {
+        width: 100%;
+    }
+
+    .benefits-package .btns .link-btn {
+        width: 8.5rem;
+    }
+
+    /*#endregion */
+
+
+    /* ================= CTA PAGE ======================= */
+
+    /*#region */
+
+
+    .copilot-flyer {
+        margin: 3rem 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .copilot-flyer .copilot {
+        width: 98%;
+        padding: 4rem 2rem;
+    }
+
+    .copilot-flyer .copilot .heading {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 1.4rem;
+    }
+
+    .copilot-flyer .flyer {
+        width: 98%;
+        margin-bottom: 1rem;
+    }
+
+    /*#endregion */
+
+
+}
